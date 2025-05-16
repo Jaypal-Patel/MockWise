@@ -11,12 +11,15 @@ import Contact from "./pages/contact/Contact";
 import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
 
+import AptitudeTest from "./pages/test/AptitudeTest";
+
 function App() {
   return (
     <>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/aptitude-test" element={<AptitudeTest />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
 
