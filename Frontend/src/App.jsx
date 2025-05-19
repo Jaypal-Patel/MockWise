@@ -11,7 +11,8 @@ import Contact from "./pages/contact/Contact";
 import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
 
-import AptitudeTest from "./pages/test/AptitudeTest";
+import Test from "./pages/test/Test";
+import TextSubject from "./pages/test/TextSubject";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/aptitude-test" element={<AptitudeTest />} />
+        <Route path="/aptitude-test" element={<Test />} />
+        <Route path="/test-subject" element={<TextSubject />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
 
